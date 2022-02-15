@@ -7,7 +7,7 @@ const BSTC = () => {
             <h1 className='bstc-head'>Babel Software Testing Certification Champions</h1>
             <h3 className='bstc-intro'>There are always new, grander challenges to confront, and a true winner will embrace each one.</h3>
             <Container>
-               <h1 className='bstc-name'>December</h1>
+               <h1 className='bstc-name'>January, 2022</h1>
 
                <table className="bstc-table">
                    <tr>

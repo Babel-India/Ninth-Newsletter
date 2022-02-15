@@ -5,8 +5,8 @@ import './Styles/Head.css'
 const head = () => {
     return(
         <div>
-            <Carousel>
-  <Carousel.Item interval={1000}>
+            <Carousel fade>
+  <Carousel.Item>
     <img
       className="d-block w-100"
       src={ require("../Images/Head/bgi1.jpg").default }
@@ -17,7 +17,7 @@ const head = () => {
       <p className="greetings" >Hello, Namaste, Sat srī akāl, Bonjour, Hallo, Hola Keywords Family Welcome to one and only Keywords News Platform!</p> 
     </Carousel.Caption>
   </Carousel.Item> 
-   <Carousel.Item interval={500}> 
+   <Carousel.Item> 
      <img
       className="d-block w-100"
       src={ require("../Images/Head/bgi2.jpg").default }
