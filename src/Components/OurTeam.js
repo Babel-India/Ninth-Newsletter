@@ -26,16 +26,9 @@ function TeamIntro() {
                 </Col>
                 <Col>
                     <div>
-                        <img className='introImage' src={Vimmy} alt="Vimmy" />
-                        <h4 className='member'>Vimmy Vashisht</h4>
-                        <p>Content Writer</p>
-                    </div>
-                </Col>
-                <Col>
-                    <div>
-                        <img className='introImage' src={Sushree} alt="Sushree" />
-                        <h4 className='member'>Sushree Ray</h4>
-                        <p>Content Writer/Web Designer</p>
+                        <img className='introImage' src={Jay} alt="jay" />
+                        <h4 className='member'>Jay Bhat</h4>
+                        <p>Web Developer</p>
                     </div>
                 </Col>
                </Row>
@@ -70,13 +63,7 @@ function TeamIntro() {
                         <p>Content Writer</p>
                     </div>
                 </Col>
-                <Col>
-                    <div>
-                        <img className='introImage' src={Jay} alt="jay" />
-                        <h4 className='member'>Jay Bhat</h4>
-                        <p>Web Developer</p>
-                    </div>
-                </Col>
+                
                 <Col>
                     <div>
                         <img className='introImage' src={ayan} alt="ayan" />
