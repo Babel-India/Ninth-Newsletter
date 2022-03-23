@@ -7,53 +7,39 @@ import { Container} from "react-bootstrap"
 const Games = () => {
     return(
       <div id="games" className="games-news">
-      <h1 className='game-head'>List of banned video Games</h1>
+      <h1 className='game-head'>Upcoming Games On Mobile Platform</h1>
       
            <div className="game-1">
-               <h2 className='game-name'>Elden Ring</h2>
+               <h2 className='game-name'>Valorant Mobile</h2>
               <p className="game-des">
-                <img alt='game' className="game-img" src={ require("../Images/Games/Elden.webp").default } />
-                Originally announced during E3 2019, Elden Ring is the next FromSoftware offering from Dark Souls creator Hidetaka Miyazaka and Game of Thrones author George R.R. Martin. In what will be FromSoftware's biggest game to date, Elden Ring takes place in an open world filled with rich lore and bloody history, with incredible monster designs, magic, and a horse too.
+                <img alt='game' className="game-img" src={ require("../Images/Games/Valorant.jpg").default } />
+                Riot Games have announced that Valorant will be coming to mobile devices.
+                The free-to-play competitive first-person PC shooter will be migrating from over PC where it has had a spectacular start to life, accumulating 14 million players each month.
+                Valorant’s developers have committed to expanding on their rapidly-growing player base, stating that they are prepared to “expand the franchise.”
               </p>
-              <p> Platform's: PS4, Xbox One, PC, PS5, Xbox Series X</p>
-              <p>Release date: February 25, 2022</p>
+              <p></p>
+              <p></p>
            </div>
            <div className="game-1">
-               <h2 className='game-name'>Forspoken</h2>
+               <h2 className='game-name'>Garena : Undawn</h2>
               <p className="game-des">
-                <img alt='game' className="game-image" src={ require("../Images/Games/Forspoken.webp").default } />
-                Luminous Production's team is made up of some of the developers who worked on Final Fantasy 15. As the debut adventure from the studio, Forspoken follows the story of Frey, a young woman from New York who finds herself in the hostile world of Athia. With magic powers, parkour, and lots of other-worldly creatures, Forspoken also boasts a host of established writers such as Gary Whitta, Alison Rhymer, Todd Stashwich, and Amy Hennig.   
+                <img alt='game' className="game-image" src={ require("../Images/Games/Undawn.jpg").default } />
+                Tencent is a name any mobile gamer is very familiar with, so any upcoming titles they announce are bound to be interesting. Undawn is a cooperative zombie survival title heading for iOS and Android. It will boast a mixture of PvE and PvP, where players will have to deal with the zombie hordes whilst contending with other players.
+                Additionaly they can team up with others and create shelters to provide sanctuary from the zombies whilst trading resources with their pals to ensure they are appropriately stocked with supplies. Admittedly, yet another zombie game doesn't sound that appealing, but Tencent has earned a reputation for making successful mobile games for a reason.
               </p>
-              <p> Platform's:PS5, PC</p>
-              <p>Release date:May 24, 2022</p>
+              <p></p>
+              <p></p>
            </div> 
            <div className="game-1">
-               <h2 className='game-name'>OlliOlli World</h2>
+               <h2 className='game-name'>Jujutsu Kaisen: Phantom Parade</h2>
               <p className="game-des">
-                <img alt='game' className="game-img" src={ require("../Images/Games/Olli.webp").default } />
-                Take a trip to skateboarding utopia - aka Radlandia - with OlliOlli World, where you'll be able to attempt to master the game's deep combo system. Sandbox mode will have you mastering "millions of unique levels", with global leagues to up the competition. Your character is fully customizable, and you'll meet vibrant characters as you work your way to discovering the mystical skate gods of Gnarvana.
+                <img alt='game' className="game-img" src={ require("../Images/Games/Jujutsu.jpg").default } />
+                One of the most anticipated mobile games of 2022 (alongside Kimetsu no Yaiba / Demon Slayer), Jujutsu Kaisen: Phantom Parade is an outstanding turn-based RPG with amazing graphics, unique animations and dialogues, and never-before-seen scenes. Fans of the anime or manga should definitely keep an eye out for this one - I know for sure I will!
+                At the moment we don't have a lot of information, but we do know for sure that we'll get to see the beloved main characters Yuji, Megumi, Kugisaki Nobara, and of course the one that cannot be missing, Gojo Satoru. Ah, and Nanami Kento.
               </p>
-              <p> Platform's:PS5, PS4, Xbox One, Xbox Series X, PC, Nintendo Switch</p>
-              <p>Release date: February 8, 2022</p>
+              <p></p>
+              <p></p>
            </div>   
-           <div className="game-1">
-               <h2 className='game-name'>Horizon Forbidden West</h2>
-              <p className="game-des">
-                <img alt='game' className="game-image" src={ require("../Images/Games/Horizon.webp").default } />
-                Aloy is officially back in a sequel to 2017's Horizon Zero Dawn, and this time we'll be journeying to the post-apocalyptic setting of San Franciso in America. The trailer which debuted during Sony's Future of Gaming event revealed Horizon Forbidden West will be coming to the PS5, and showed off gorgeous, vibrant landscapes, new big machines creatures, and - most interestingly of all - underwater sequences. We'll no doubt have more mysteries to unravel as we return to Guerrilla Games' unique world when it does eventually release on the next-gen console. 
-              </p>
-              <p> Platform's:PS5. PS4</p>
-              <p>Release date: February 18, 2022</p>
-           </div> 
-           <div className="game-1">
-               <h2 className='game-name'>Triangle Strategy</h2>
-              <p className="game-des">
-                <img alt='game' className="game-img" src={ require("../Images/Games/Triangle.webp").default } />
-                As the second game in the HD-2D series, Triangle Strategy features the sprite style graphics we saw in Octopath Traveler to bring us a new strategy RPG. Playing as  newly appointed lord, Serenoa, you'll command warriors on the battlefield, make big decisions that will shape the fate of the continent of Norzelia, and find yourself caught up in the power play between nations. Since the launch of the demo earlier this year, Square Enix revealed it has taken on board player feedback to bring a wealth of the player requested changes to the upcoming release. 
-              </p>
-              <p> Platform's: Nintendo Switch </p>
-              <p>Release date: March 4, 2022</p>
-           </div> 
   </div>
     )
 }

@@ -5,9 +5,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Nav } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 
-
-
-function Contact() {
+function Contact(){
     return(
       <div className='nav-head'>
          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -31,18 +29,13 @@ function Contact() {
           <Nav.Link href="#event">Event Winner</Nav.Link>
           <Nav.Link href="#games">Upcoming Games</Nav.Link>
           <Nav.Link href="https://forms.office.com/pages/responsepage.aspx?id=158yDOK3zUyc_-jeYYoNkE8Obgic4X5Mmn9t2hbxfrNURU5GT00yRjY0RlpPSE9KTFJTTDZOV0lYNy4u" target="_blank" >Feedback</Nav.Link>
-          
           </Nav> 
-         
-          <a href='https://www.facebook.com/KeywordsStudios/'  target="_blank" rel="noreferrer"><i id='facebookid'  class="fab fa-facebook-square" ></i></a>
-                      
+          <a href='https://www.facebook.com/KeywordsStudios/'  target="_blank" rel="noreferrer"><i id='facebookid'  class="fab fa-facebook-square" ></i></a>           
           <a href='https://www.instagram.com/keywordsstudiosfamily/?hl=en' target="_blank" rel="noreferrer"><i class="fab fa-instagram-square"></i></a>
           <a href='https://www.linkedin.com/company/keywordsstudios/mycompany/' target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
          <a href='https://forms.office.com/pages/responsepage.aspx?id=158yDOK3zUyc_-jeYYoNkE8Obgic4X5Mmn9t2hbxfrNURU5GT00yRjY0RlpPSE9KTFJTTDZOV0lYNy4u' target="_blank" rel="noreferrer"> <i class="fas fa-comment-alt"></i></a>
-        
          </Navbar.Collapse>
          </Container>
-        
         </Navbar>
       </div>
    )

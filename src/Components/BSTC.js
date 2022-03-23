@@ -17,44 +17,32 @@ const BSTC = () => {
                        <th>Marks</th>
                    </tr>
                    <tr>
-                       <th>Kripesh Nayak</th>
-                       <th>39</th>
-                       <th>Shaikh Ezaz Ahamed</th>
-                       <th>39</th>
-                   </tr>
-                   <tr>
-                       <th>Rahul Solanki</th>
-                       <th>39</th>
-                       <th>Saurav Suman</th>
+                       <th>Laharsh Kushwah</th>
+                       <th>38</th>
+                       <th>Akash Daharan</th>
                        <th>38</th>
                    </tr>
                    <tr>
-                       <th>Aman Rawat</th>
+                       <th>Aaditya Awasthi</th>
                        <th>37</th>
-                       <th>Melvin Chacko</th>
-                       <th>37</th>
-                   </tr>
-                   <tr>
-                       <th>Akash Kumar</th>
+                       <th>Arjun Eriyat</th>
                        <th>36</th>
-                       <th>Ishaan Sharma</th>
+                   </tr>
+                   <tr>
+                       <th>Rajan Patil</th>
+                       <th>36</th>
+                       <th>Anuraag Tiwari</th>
                        <th>35</th>
                    </tr>
                    <tr>
-                       <th>Shorya Chauhan</th>
+                       <th>Dhruv Mehta</th>
                        <th>35</th>
-                       <th>Chinmay Girish Kawale</th>
+                       <th>Bhavya Singh</th>
                        <th>34</th>
                    </tr>
                    <tr>
-                       <th>Akash Rajiv Puranik</th>
+                       <th>Namrata Mishra</th>
                        <th>34</th>
-                       <th>Rohan Karir</th>
-                       <th>33</th>
-                   </tr>
-                   <tr>
-                       <th>Kamal Swami</th>
-                       <th>32</th>
                        <th></th>
                        <th></th>
                    </tr>
